@@ -7,7 +7,7 @@ An Vaadin front-end built in Java,
 
 ## Requirements
  - Java 21 (JRE)
- - LangFlow with a valid flow built and running using the "Vector Store RAG" template.
+ - [LangFlow](https://docs.langflow.org/) with a valid flow built and running using the "Vector Store RAG" template.
  - Was built with LangFlow running locally, but the API endpoints on HuggingFace Spaces _should_ work.
 
 ## To build:
