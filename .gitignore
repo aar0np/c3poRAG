@@ -6,6 +6,7 @@ target/
 !**/src/test/**/target/
 frontend/
 .java-version
+.python-version
 
 ### STS ###
 .apt_generated
@@ -38,3 +39,5 @@ build/
 ### Maven ###
 .mvn
 mvn*
+
+logs

@@ -17,7 +17,7 @@ public class C3poController {
 	private RestTemplate restTemplate;
 	
 	//private final String LANGFLOW_URL = "http://127.0.0.1:7860/api/v1/run/9ed6ea74-b2ce-483f-8387-1653c427d314?stream=false";
-	private static  final String LANGFLOW_URL = "http://127.0.0.1:7860/api/v1/run/a68849e8-7441-49d0-86ef-7a09b2a35f2e?stream=false";
+	private static  final String LANGFLOW_URL = System.getenv("LANGFLOW_URL");
 	
 	public C3poController() {
 		restTemplate = new RestTemplateBuilder().build();
